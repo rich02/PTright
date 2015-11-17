@@ -67,13 +67,13 @@
                                 </date>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severity: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vE-Pn-SUy">
-                                <rect key="frame" x="25" y="345" width="94" height="21"/>
+                                <rect key="frame" x="440" y="353" width="94" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ENQ-tL-XUT">
-                                <rect key="frame" x="205" y="341" width="377" height="31"/>
+                                <rect key="frame" x="26" y="344" width="377" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="373" id="ViL-dB-pHK"/>
                                 </constraints>
@@ -81,19 +81,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="top" secondItem="wd3-RI-keE" secondAttribute="bottom" constant="11" id="3II-tr-NOD"/>
+                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="top" secondItem="wd3-RI-keE" secondAttribute="bottom" constant="14" id="3II-tr-NOD"/>
                             <constraint firstItem="9yh-05-MSO" firstAttribute="trailing" secondItem="fnK-1f-beq" secondAttribute="trailingMargin" id="6fI-C4-n2O"/>
                             <constraint firstItem="wd3-RI-keE" firstAttribute="leading" secondItem="fnK-1f-beq" secondAttribute="leadingMargin" id="7cL-iE-0Cf"/>
                             <constraint firstItem="cYd-vE-nRI" firstAttribute="top" secondItem="6B0-Zk-XqE" secondAttribute="bottom" id="Fcq-df-7vp"/>
                             <constraint firstItem="6B0-Zk-XqE" firstAttribute="trailing" secondItem="fnK-1f-beq" secondAttribute="trailingMargin" id="Gdi-Fj-doj"/>
                             <constraint firstItem="fWf-0Q-gjJ" firstAttribute="trailing" secondItem="fnK-1f-beq" secondAttribute="trailingMargin" id="JbK-Zm-T1G"/>
-                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="trailing" secondItem="wd3-RI-keE" secondAttribute="trailing" id="NVJ-Eg-sfp"/>
+                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="trailing" secondItem="wd3-RI-keE" secondAttribute="trailing" constant="-179" id="NVJ-Eg-sfp"/>
                             <constraint firstItem="6B0-Zk-XqE" firstAttribute="leading" secondItem="fnK-1f-beq" secondAttribute="leadingMargin" id="Nx6-gs-xHE"/>
                             <constraint firstItem="wd3-RI-keE" firstAttribute="top" secondItem="fWf-0Q-gjJ" secondAttribute="bottom" constant="8" id="OSw-QM-Ba8"/>
-                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="leading" secondItem="2vE-Pn-SUy" secondAttribute="trailing" constant="88" id="Uht-sf-pJb"/>
+                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="leading" secondItem="2vE-Pn-SUy" secondAttribute="trailing" constant="-506" id="Uht-sf-pJb"/>
                             <constraint firstItem="Y8q-Kf-FhD" firstAttribute="leading" secondItem="fnK-1f-beq" secondAttribute="leadingMargin" id="Y9A-dK-m3j"/>
                             <constraint firstItem="9yh-05-MSO" firstAttribute="leading" secondItem="fnK-1f-beq" secondAttribute="leadingMargin" id="aEx-yQ-9Nd"/>
-                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="centerY" secondItem="2vE-Pn-SUy" secondAttribute="centerY" id="bbJ-i4-zBx"/>
+                            <constraint firstItem="ENQ-tL-XUT" firstAttribute="centerY" secondItem="2vE-Pn-SUy" secondAttribute="centerY" constant="-4.5" id="bbJ-i4-zBx"/>
                             <constraint firstItem="wd3-RI-keE" firstAttribute="trailing" secondItem="fnK-1f-beq" secondAttribute="trailingMargin" id="fn9-Vi-QvR"/>
                             <constraint firstItem="fWf-0Q-gjJ" firstAttribute="top" secondItem="9yh-05-MSO" secondAttribute="bottom" constant="8" id="iQU-zk-aaq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Y8q-Kf-FhD" secondAttribute="trailing" constant="471" id="jek-d2-g7e"/>
@@ -291,8 +291,8 @@
                                 </constraints>
                                 <state key="normal" title="Add Video"/>
                             </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5zl-t6-f3B">
-                                <rect key="frame" x="20" y="259" width="560" height="109"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5zl-t6-f3B">
+                                <rect key="frame" x="20" y="266" width="560" height="109"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="ZDM-3a-C2V">
                                     <size key="itemSize" width="120" height="70"/>
