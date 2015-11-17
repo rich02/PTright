@@ -291,8 +291,8 @@
                                 </constraints>
                                 <state key="normal" title="Add Video"/>
                             </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5zl-t6-f3B">
-                                <rect key="frame" x="20" y="266" width="560" height="109"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5zl-t6-f3B">
+                                <rect key="frame" x="20" y="259" width="560" height="109"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="ZDM-3a-C2V">
                                     <size key="itemSize" width="120" height="70"/>
