@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PTRight
 //
-//  Created by MU IT Program on 11/10/15.
-//  Copyright © 2015 MU IT Program. All rights reserved.
+//  Created by MU IT Program on 11/12/15.
+//  Copyright © 2015 James Tapia. All rights reserved.
 //
 
 import UIKit
