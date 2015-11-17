@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6727354E1BF2808D00FAF0C1"
+               BlueprintIdentifier = "67B3F82B1BF5127600368687"
                BuildableName = "PTRight.app"
                BlueprintName = "PTRight"
                ReferencedContainer = "container:PTRight.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67B3F83F1BF5127600368687"
+               BuildableName = "PTRightTests.xctest"
+               BlueprintName = "PTRightTests"
+               ReferencedContainer = "container:PTRight.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67B3F84A1BF5127600368687"
+               BuildableName = "PTRightUITests.xctest"
+               BlueprintName = "PTRightUITests"
+               ReferencedContainer = "container:PTRight.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6727354E1BF2808D00FAF0C1"
+            BlueprintIdentifier = "67B3F82B1BF5127600368687"
             BuildableName = "PTRight.app"
             BlueprintName = "PTRight"
             ReferencedContainer = "container:PTRight.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6727354E1BF2808D00FAF0C1"
+            BlueprintIdentifier = "67B3F82B1BF5127600368687"
             BuildableName = "PTRight.app"
             BlueprintName = "PTRight"
             ReferencedContainer = "container:PTRight.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6727354E1BF2808D00FAF0C1"
+            BlueprintIdentifier = "67B3F82B1BF5127600368687"
             BuildableName = "PTRight.app"
             BlueprintName = "PTRight"
             ReferencedContainer = "container:PTRight.xcodeproj">
