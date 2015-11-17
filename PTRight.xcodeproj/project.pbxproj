@@ -18,6 +18,10 @@
 		67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89F1BFA632800368687 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		947524EF1BFB88290067B42D /* ankle_exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524EC1BFB88290067B42D /* ankle_exercise.jpg */; settings = {ASSET_TAGS = (); }; };
+		947524F11BFB88290067B42D /* wrist_twist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524EE1BFB88290067B42D /* wrist_twist.jpg */; settings = {ASSET_TAGS = (); }; };
+		947524F51BFB8D410067B42D /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		947524F91BFB91470067B42D /* foot_exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524F81BFB91470067B42D /* foot_exercise.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExerciseViewController.swift; sourceTree = "<group>"; };
 		67B3F89F1BFA632800368687 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInjuriesTableViewController.swift; sourceTree = "<group>"; };
+		947524EC1BFB88290067B42D /* ankle_exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ankle_exercise.jpg; path = ../../../Desktop/ankle_exercise.jpg; sourceTree = "<group>"; };
+		947524EE1BFB88290067B42D /* wrist_twist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wrist_twist.jpg; path = ../../../Desktop/wrist_twist.jpg; sourceTree = "<group>"; };
+		947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		947524F81BFB91470067B42D /* foot_exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foot_exercise.jpg; path = ../../../Desktop/foot_exercise.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,9 @@
 				67B3F82F1BF5127600368687 /* AppDelegate.swift */,
 				67B3F8331BF5127600368687 /* Main.storyboard */,
 				67B3F8361BF5127600368687 /* Assets.xcassets */,
+				947524F81BFB91470067B42D /* foot_exercise.jpg */,
+				947524EC1BFB88290067B42D /* ankle_exercise.jpg */,
+				947524EE1BFB88290067B42D /* wrist_twist.jpg */,
 				67B3F8381BF5127600368687 /* LaunchScreen.storyboard */,
 				67B3F83B1BF5127600368687 /* Info.plist */,
 				67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */,
@@ -115,6 +126,7 @@
 				67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */,
 				67B3F89F1BFA632800368687 /* DetailViewController.swift */,
 				67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */,
+				947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */,
 			);
 			path = PTRight;
 			sourceTree = "<group>";
@@ -240,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947524F11BFB88290067B42D /* wrist_twist.jpg in Resources */,
+				947524EF1BFB88290067B42D /* ankle_exercise.jpg in Resources */,
 				67B3F83A1BF5127600368687 /* LaunchScreen.storyboard in Resources */,
 				67B3F8371BF5127600368687 /* Assets.xcassets in Resources */,
+				947524F91BFB91470067B42D /* foot_exercise.jpg in Resources */,
 				67B3F8351BF5127600368687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +284,7 @@
 			files = (
 				67B3F8301BF5127600368687 /* AppDelegate.swift in Sources */,
 				67B3F89A1BFA62BA00368687 /* AddInjuryViewController.swift in Sources */,
+				947524F51BFB8D410067B42D /* ExerciseCollectionViewCell.swift in Sources */,
 				67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */,
 				67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */,
 				67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */,
@@ -499,6 +515,7 @@
 				67B3F8561BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B3F8571BF5127700368687 /* Build configuration list for PBXNativeTarget "PTRightTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +524,7 @@
 				67B3F8591BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B3F85A1BF5127700368687 /* Build configuration list for PBXNativeTarget "PTRightUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +533,7 @@
 				67B3F85C1BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
