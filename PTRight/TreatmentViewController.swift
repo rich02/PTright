@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import CoreData
 
-class TreatmentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+class TreatmentViewController: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate {
+    
+    var injury: Injury? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

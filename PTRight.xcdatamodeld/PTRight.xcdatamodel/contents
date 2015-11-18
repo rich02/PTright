@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
+        <attribute name="exerciseDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="injury" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Injury" inverseName="exercises" inverseEntity="Injury" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" maxCount="5" deletionRule="Nullify" destinationEntity="Video" inverseName="exercise" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="Injury" representedClassName=".Injury" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="injuryDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prevention" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="severity" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exercise" inverseName="injury" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName=".Video" syncable="YES">
+        <attribute name="thumbnail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="videos" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-344" positionY="-108" width="128" height="103"/>
+        <element name="Video" positionX="-74" positionY="18" width="128" height="88"/>
+        <element name="Injury" positionX="-594" positionY="-223" width="128" height="133"/>
+    </elements>
+</model>

@@ -13,11 +13,18 @@
 		67B3F83A1BF5127600368687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F8381BF5127600368687 /* LaunchScreen.storyboard */; };
 		67B3F8451BF5127600368687 /* PTRightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8441BF5127600368687 /* PTRightTests.swift */; };
 		67B3F8501BF5127700368687 /* PTRightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F84F1BF5127700368687 /* PTRightUITests.swift */; };
-		67B3F89A1BFA62BA00368687 /* AddInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89F1BFA632800368687 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */; };
+		67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */; };
+		F44A493E1BFAE77900501B22 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A493D1BFAE77900501B22 /* CoreDataStack.swift */; };
+		F44A49441BFAF09D00501B22 /* PTRight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F44A49421BFAF09D00501B22 /* PTRight.xcdatamodeld */; };
+		F44A494B1BFAF48D00501B22 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49451BFAF48D00501B22 /* Exercise+CoreDataProperties.swift */; };
+		F44A494C1BFAF48D00501B22 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49461BFAF48D00501B22 /* Exercise.swift */; };
+		F44A494D1BFAF48D00501B22 /* Injury+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49471BFAF48D00501B22 /* Injury+CoreDataProperties.swift */; };
+		F44A494E1BFAF48D00501B22 /* Injury.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49481BFAF48D00501B22 /* Injury.swift */; };
+		F44A494F1BFAF48D00501B22 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49491BFAF48D00501B22 /* Video+CoreDataProperties.swift */; };
+		F44A49501BFAF48D00501B22 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A494A1BFAF48D00501B22 /* Video.swift */; };
+		F44A49521BFB1C4E00501B22 /* InjuryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49511BFB1C4E00501B22 /* InjuryCell.swift */; };
+		F44A49561BFB905900501B22 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A49551BFB905900501B22 /* AddEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +57,18 @@
 		67B3F84B1BF5127600368687 /* PTRightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTRightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B3F84F1BF5127700368687 /* PTRightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTRightUITests.swift; sourceTree = "<group>"; };
 		67B3F8511BF5127700368687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInjuryViewController.swift; sourceTree = "<group>"; };
 		67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentViewController.swift; sourceTree = "<group>"; };
-		67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExerciseViewController.swift; sourceTree = "<group>"; };
-		67B3F89F1BFA632800368687 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInjuriesTableViewController.swift; sourceTree = "<group>"; };
+		F44A493D1BFAE77900501B22 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F44A49431BFAF09D00501B22 /* PTRight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PTRight.xcdatamodel; sourceTree = "<group>"; };
+		F44A49451BFAF48D00501B22 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F44A49461BFAF48D00501B22 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		F44A49471BFAF48D00501B22 /* Injury+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Injury+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F44A49481BFAF48D00501B22 /* Injury.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injury.swift; sourceTree = "<group>"; };
+		F44A49491BFAF48D00501B22 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F44A494A1BFAF48D00501B22 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F44A49511BFB1C4E00501B22 /* InjuryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjuryCell.swift; sourceTree = "<group>"; };
+		F44A49551BFB905900501B22 /* AddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,14 @@
 		67B3F8231BF5127600368687 = {
 			isa = PBXGroup;
 			children = (
+				F44A49451BFAF48D00501B22 /* Exercise+CoreDataProperties.swift */,
+				F44A49461BFAF48D00501B22 /* Exercise.swift */,
+				F44A49471BFAF48D00501B22 /* Injury+CoreDataProperties.swift */,
+				F44A49481BFAF48D00501B22 /* Injury.swift */,
+				F44A49491BFAF48D00501B22 /* Video+CoreDataProperties.swift */,
+				F44A494A1BFAF48D00501B22 /* Video.swift */,
+				F44A493D1BFAE77900501B22 /* CoreDataStack.swift */,
+				F44A49421BFAF09D00501B22 /* PTRight.xcdatamodeld */,
 				67B3F82E1BF5127600368687 /* PTRight */,
 				67B3F8431BF5127600368687 /* PTRightTests */,
 				67B3F84E1BF5127700368687 /* PTRightUITests */,
@@ -105,16 +127,15 @@
 		67B3F82E1BF5127600368687 /* PTRight */ = {
 			isa = PBXGroup;
 			children = (
-				67B3F82F1BF5127600368687 /* AppDelegate.swift */,
 				67B3F8331BF5127600368687 /* Main.storyboard */,
+				67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */,
+				F44A49551BFB905900501B22 /* AddEditViewController.swift */,
+				67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */,
+				F44A49511BFB1C4E00501B22 /* InjuryCell.swift */,
+				67B3F82F1BF5127600368687 /* AppDelegate.swift */,
 				67B3F8361BF5127600368687 /* Assets.xcassets */,
 				67B3F8381BF5127600368687 /* LaunchScreen.storyboard */,
 				67B3F83B1BF5127600368687 /* Info.plist */,
-				67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */,
-				67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */,
-				67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */,
-				67B3F89F1BFA632800368687 /* DetailViewController.swift */,
-				67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */,
 			);
 			path = PTRight;
 			sourceTree = "<group>";
@@ -267,12 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44A494E1BFAF48D00501B22 /* Injury.swift in Sources */,
+				F44A493E1BFAE77900501B22 /* CoreDataStack.swift in Sources */,
 				67B3F8301BF5127600368687 /* AppDelegate.swift in Sources */,
-				67B3F89A1BFA62BA00368687 /* AddInjuryViewController.swift in Sources */,
-				67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */,
-				67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */,
+				F44A49501BFAF48D00501B22 /* Video.swift in Sources */,
+				F44A49561BFB905900501B22 /* AddEditViewController.swift in Sources */,
+				F44A494D1BFAF48D00501B22 /* Injury+CoreDataProperties.swift in Sources */,
+				F44A494C1BFAF48D00501B22 /* Exercise.swift in Sources */,
 				67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */,
+				F44A49441BFAF09D00501B22 /* PTRight.xcdatamodeld in Sources */,
 				67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */,
+				F44A49521BFB1C4E00501B22 /* InjuryCell.swift in Sources */,
+				F44A494F1BFAF48D00501B22 /* Video+CoreDataProperties.swift in Sources */,
+				F44A494B1BFAF48D00501B22 /* Exercise+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +527,7 @@
 				67B3F8561BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B3F8571BF5127700368687 /* Build configuration list for PBXNativeTarget "PTRightTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +536,7 @@
 				67B3F8591BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B3F85A1BF5127700368687 /* Build configuration list for PBXNativeTarget "PTRightUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,8 +545,22 @@
 				67B3F85C1BF5127700368687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F44A49421BFAF09D00501B22 /* PTRight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F44A49431BFAF09D00501B22 /* PTRight.xcdatamodel */,
+			);
+			currentVersion = F44A49431BFAF09D00501B22 /* PTRight.xcdatamodel */;
+			path = PTRight.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67B3F8241BF5127600368687 /* Project object */;
 }
