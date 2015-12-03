@@ -8,6 +8,20 @@
 
 import UIKit
 
+enum ExerciseSections: Int, CustomStringConvertible {
+    case Name, Description, Video, Count
+    
+    var description: String {
+        switch (self) {
+        case .Name: return "Name"
+        case .Description: return "Description"
+        case .Video: return "Add Video"
+        case .Count: return "Count"
+        }
+    }
+}
+
+
 class NewExerciseViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var images: [String] = []
@@ -24,6 +38,73 @@ class NewExerciseViewController: UIViewController, UICollectionViewDataSource, U
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return ExerciseSections.Count.rawValue
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let tableViewSections = ExerciseSections(rawValue: section) {
+            switch tableViewSections {
+            case .Name, .Description, .Video:
+                return 1
+            default:
+                break
+            }
+        }
+        return 0
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        switch indexPath.section {
+        case ExerciseSections.Name.rawValue:
+            let nameCell = tableView.dequeueReusableCellWithIdentifier("exerciseName", forIndexPath: indexPath) as! ExerciseNameTableViewCell
+            return nameCell
+        case ExerciseSections.Description.rawValue:
+            let descCell = tableView.dequeueReusableCellWithIdentifier("exerciseDescription", forIndexPath: indexPath) as! ExerciseDescriptionTableViewCell
+            return descCell
+        case ExerciseSections.Video.rawValue:
+            let videoCell = tableView.dequeueReusableCellWithIdentifier("exerciseVideo", forIndexPath: indexPath) as! ExerciseVideoTableViewCell
+            return videoCell
+        default:
+            break
+        }
+        return UITableViewCell()
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if let tableViewSections = ExerciseSections(rawValue: section) {
+            switch tableViewSections {
+            case .Name:
+                return ExerciseSections.Name.description
+            case .Description:
+                return ExerciseSections.Description.description
+            case .Video:
+                return ExerciseSections.Video.description
+            default:
+                break
+            }
+        }
+        return ""
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        //        switch indexPath.section {
+        //        case Sections.Input.rawValue:
+        //            return 100.0
+        //        default:
+        //            return 50.0
+        //        }
+        return 200
+    }
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 {
+            return 0
+        }
+        return 30.0
+    }
+
+    
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
@@ -36,14 +117,5 @@ class NewExerciseViewController: UIViewController, UICollectionViewDataSource, U
         return cell
         
            }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

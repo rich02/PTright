@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678FD8021C0F7C930013A28D /* MyInjuriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8011C0F7C930013A28D /* MyInjuriesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8041C0F7E6D0013A28D /* TreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8031C0F7E6D0013A28D /* TreatmentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8061C0F81680013A28D /* InjuryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8051C0F81680013A28D /* InjuryNameTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8081C0F819E0013A28D /* InjuryDescTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8071C0F819E0013A28D /* InjuryDescTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD80A1C0F81B00013A28D /* InjuryPrevTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8091C0F81B00013A28D /* InjuryPrevTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD80C1C0F81EA0013A28D /* InjurySevTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD80B1C0F81EA0013A28D /* InjurySevTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD80E1C0F81FD0013A28D /* InjuryDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD80D1C0F81FD0013A28D /* InjuryDateTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8101C0FFB900013A28D /* TreatmentNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD80F1C0FFB900013A28D /* TreatmentNameTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8121C0FFBBD0013A28D /* TreatmentDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8111C0FFBBD0013A28D /* TreatmentDateTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8141C0FFC590013A28D /* TreatmentDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8131C0FFC590013A28D /* TreatmentDescriptionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8161C0FFCAA0013A28D /* TreatmentPreventionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8151C0FFCAA0013A28D /* TreatmentPreventionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8181C0FFCD40013A28D /* TreatmentSeverityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8171C0FFCD40013A28D /* TreatmentSeverityTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD81A1C0FFCF40013A28D /* TreatmentExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD8191C0FFCF40013A28D /* TreatmentExerciseTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD81C1C10083C0013A28D /* ExerciseNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD81B1C10083C0013A28D /* ExerciseNameTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD81E1C1008500013A28D /* ExerciseDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD81D1C1008500013A28D /* ExerciseDescriptionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		678FD8201C1008920013A28D /* ExerciseVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD81F1C1008920013A28D /* ExerciseVideoTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		67B3F8301BF5127600368687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F82F1BF5127600368687 /* AppDelegate.swift */; };
 		67B3F8351BF5127600368687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F8331BF5127600368687 /* Main.storyboard */; };
 		67B3F8371BF5127600368687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F8361BF5127600368687 /* Assets.xcassets */; };
@@ -14,14 +30,8 @@
 		67B3F8451BF5127600368687 /* PTRightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8441BF5127600368687 /* PTRightTests.swift */; };
 		67B3F8501BF5127700368687 /* PTRightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F84F1BF5127700368687 /* PTRightUITests.swift */; };
 		67B3F89A1BFA62BA00368687 /* AddInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F89F1BFA632800368687 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		947524EF1BFB88290067B42D /* ankle_exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524EC1BFB88290067B42D /* ankle_exercise.jpg */; settings = {ASSET_TAGS = (); }; };
-		947524F11BFB88290067B42D /* wrist_twist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524EE1BFB88290067B42D /* wrist_twist.jpg */; settings = {ASSET_TAGS = (); }; };
 		947524F51BFB8D410067B42D /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		947524F91BFB91470067B42D /* foot_exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 947524F81BFB91470067B42D /* foot_exercise.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678FD8011C0F7C930013A28D /* MyInjuriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInjuriesViewController.swift; sourceTree = "<group>"; };
+		678FD8031C0F7E6D0013A28D /* TreatmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentViewController.swift; sourceTree = "<group>"; };
+		678FD8051C0F81680013A28D /* InjuryNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjuryNameTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8071C0F819E0013A28D /* InjuryDescTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjuryDescTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8091C0F81B00013A28D /* InjuryPrevTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjuryPrevTableViewCell.swift; sourceTree = "<group>"; };
+		678FD80B1C0F81EA0013A28D /* InjurySevTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjurySevTableViewCell.swift; sourceTree = "<group>"; };
+		678FD80D1C0F81FD0013A28D /* InjuryDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjuryDateTableViewCell.swift; sourceTree = "<group>"; };
+		678FD80F1C0FFB900013A28D /* TreatmentNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentNameTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8111C0FFBBD0013A28D /* TreatmentDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentDateTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8131C0FFC590013A28D /* TreatmentDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8151C0FFCAA0013A28D /* TreatmentPreventionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentPreventionTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8171C0FFCD40013A28D /* TreatmentSeverityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentSeverityTableViewCell.swift; sourceTree = "<group>"; };
+		678FD8191C0FFCF40013A28D /* TreatmentExerciseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		678FD81B1C10083C0013A28D /* ExerciseNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseNameTableViewCell.swift; sourceTree = "<group>"; };
+		678FD81D1C1008500013A28D /* ExerciseDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		678FD81F1C1008920013A28D /* ExerciseVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseVideoTableViewCell.swift; sourceTree = "<group>"; };
 		67B3F82C1BF5127600368687 /* PTRight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTRight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B3F82F1BF5127600368687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B3F8341BF5127600368687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,14 +81,8 @@
 		67B3F84F1BF5127700368687 /* PTRightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTRightUITests.swift; sourceTree = "<group>"; };
 		67B3F8511BF5127700368687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInjuryViewController.swift; sourceTree = "<group>"; };
-		67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentViewController.swift; sourceTree = "<group>"; };
 		67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExerciseViewController.swift; sourceTree = "<group>"; };
-		67B3F89F1BFA632800368687 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInjuriesTableViewController.swift; sourceTree = "<group>"; };
-		947524EC1BFB88290067B42D /* ankle_exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ankle_exercise.jpg; path = ../../../Desktop/ankle_exercise.jpg; sourceTree = "<group>"; };
-		947524EE1BFB88290067B42D /* wrist_twist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wrist_twist.jpg; path = ../../../Desktop/wrist_twist.jpg; sourceTree = "<group>"; };
 		947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
-		947524F81BFB91470067B42D /* foot_exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foot_exercise.jpg; path = ../../../Desktop/foot_exercise.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,17 +136,27 @@
 				67B3F82F1BF5127600368687 /* AppDelegate.swift */,
 				67B3F8331BF5127600368687 /* Main.storyboard */,
 				67B3F8361BF5127600368687 /* Assets.xcassets */,
-				947524F81BFB91470067B42D /* foot_exercise.jpg */,
-				947524EC1BFB88290067B42D /* ankle_exercise.jpg */,
-				947524EE1BFB88290067B42D /* wrist_twist.jpg */,
 				67B3F8381BF5127600368687 /* LaunchScreen.storyboard */,
 				67B3F83B1BF5127600368687 /* Info.plist */,
+				678FD8011C0F7C930013A28D /* MyInjuriesViewController.swift */,
 				67B3F8991BFA62BA00368687 /* AddInjuryViewController.swift */,
-				67B3F89B1BFA62E300368687 /* TreatmentViewController.swift */,
+				678FD8051C0F81680013A28D /* InjuryNameTableViewCell.swift */,
+				678FD8071C0F819E0013A28D /* InjuryDescTableViewCell.swift */,
+				678FD8091C0F81B00013A28D /* InjuryPrevTableViewCell.swift */,
+				678FD80B1C0F81EA0013A28D /* InjurySevTableViewCell.swift */,
+				678FD80D1C0F81FD0013A28D /* InjuryDateTableViewCell.swift */,
+				678FD8031C0F7E6D0013A28D /* TreatmentViewController.swift */,
+				678FD80F1C0FFB900013A28D /* TreatmentNameTableViewCell.swift */,
+				678FD8111C0FFBBD0013A28D /* TreatmentDateTableViewCell.swift */,
+				678FD8171C0FFCD40013A28D /* TreatmentSeverityTableViewCell.swift */,
+				678FD8131C0FFC590013A28D /* TreatmentDescriptionTableViewCell.swift */,
+				678FD8151C0FFCAA0013A28D /* TreatmentPreventionTableViewCell.swift */,
+				678FD8191C0FFCF40013A28D /* TreatmentExerciseTableViewCell.swift */,
 				67B3F89D1BFA630F00368687 /* NewExerciseViewController.swift */,
-				67B3F89F1BFA632800368687 /* DetailViewController.swift */,
-				67B3F8A11BFA663400368687 /* MyInjuriesTableViewController.swift */,
 				947524F41BFB8D410067B42D /* ExerciseCollectionViewCell.swift */,
+				678FD81B1C10083C0013A28D /* ExerciseNameTableViewCell.swift */,
+				678FD81D1C1008500013A28D /* ExerciseDescriptionTableViewCell.swift */,
+				678FD81F1C1008920013A28D /* ExerciseVideoTableViewCell.swift */,
 			);
 			path = PTRight;
 			sourceTree = "<group>";
@@ -252,11 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947524F11BFB88290067B42D /* wrist_twist.jpg in Resources */,
-				947524EF1BFB88290067B42D /* ankle_exercise.jpg in Resources */,
 				67B3F83A1BF5127600368687 /* LaunchScreen.storyboard in Resources */,
 				67B3F8371BF5127600368687 /* Assets.xcassets in Resources */,
-				947524F91BFB91470067B42D /* foot_exercise.jpg in Resources */,
 				67B3F8351BF5127600368687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,13 +309,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678FD8061C0F81680013A28D /* InjuryNameTableViewCell.swift in Sources */,
+				678FD81E1C1008500013A28D /* ExerciseDescriptionTableViewCell.swift in Sources */,
+				678FD80A1C0F81B00013A28D /* InjuryPrevTableViewCell.swift in Sources */,
 				67B3F8301BF5127600368687 /* AppDelegate.swift in Sources */,
 				67B3F89A1BFA62BA00368687 /* AddInjuryViewController.swift in Sources */,
 				947524F51BFB8D410067B42D /* ExerciseCollectionViewCell.swift in Sources */,
-				67B3F8A01BFA632800368687 /* DetailViewController.swift in Sources */,
+				678FD8181C0FFCD40013A28D /* TreatmentSeverityTableViewCell.swift in Sources */,
+				678FD81C1C10083C0013A28D /* ExerciseNameTableViewCell.swift in Sources */,
+				678FD8041C0F7E6D0013A28D /* TreatmentViewController.swift in Sources */,
+				678FD8081C0F819E0013A28D /* InjuryDescTableViewCell.swift in Sources */,
+				678FD8201C1008920013A28D /* ExerciseVideoTableViewCell.swift in Sources */,
+				678FD8121C0FFBBD0013A28D /* TreatmentDateTableViewCell.swift in Sources */,
+				678FD8101C0FFB900013A28D /* TreatmentNameTableViewCell.swift in Sources */,
 				67B3F89E1BFA630F00368687 /* NewExerciseViewController.swift in Sources */,
-				67B3F89C1BFA62E300368687 /* TreatmentViewController.swift in Sources */,
-				67B3F8A21BFA663400368687 /* MyInjuriesTableViewController.swift in Sources */,
+				678FD80E1C0F81FD0013A28D /* InjuryDateTableViewCell.swift in Sources */,
+				678FD8161C0FFCAA0013A28D /* TreatmentPreventionTableViewCell.swift in Sources */,
+				678FD80C1C0F81EA0013A28D /* InjurySevTableViewCell.swift in Sources */,
+				678FD8141C0FFC590013A28D /* TreatmentDescriptionTableViewCell.swift in Sources */,
+				678FD81A1C0FFCF40013A28D /* TreatmentExerciseTableViewCell.swift in Sources */,
+				678FD8021C0F7C930013A28D /* MyInjuriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
