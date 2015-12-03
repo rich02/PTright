@@ -29,7 +29,7 @@
         <!--My Injuries-->
         <scene sceneID="YpT-1k-XoB">
             <objects>
-                <viewController id="Hwh-eg-QUK" sceneMemberID="viewController">
+                <viewController id="Hwh-eg-QUK" customClass="MyInjuriesViewController" customModule="PTRight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cbL-KH-4o7"/>
                         <viewControllerLayoutGuide type="bottom" id="aRL-FP-A9n"/>
@@ -54,6 +54,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Hwh-eg-QUK" id="Eqk-hd-qK0"/>
+                                    <outlet property="delegate" destination="Hwh-eg-QUK" id="WSe-oO-mcM"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -82,7 +86,7 @@
         <!--Treatment-->
         <scene sceneID="bAf-Zn-hHn">
             <objects>
-                <viewController id="2vY-ww-28e" sceneMemberID="viewController">
+                <viewController id="2vY-ww-28e" customClass="TreatmentViewController" customModule="PTRight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SNi-Xv-VvB"/>
                         <viewControllerLayoutGuide type="bottom" id="84f-yB-EL1"/>
@@ -95,7 +99,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentName" id="arU-04-d5T">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentName" id="arU-04-d5T" customClass="TreatmentNameTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="arU-04-d5T" id="Oz1-sk-cAQ">
@@ -116,7 +120,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDate" id="TZm-QS-SbX">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDate" id="TZm-QS-SbX" customClass="TreatmentDateTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TZm-QS-SbX" id="8uX-0a-Qih">
@@ -136,7 +140,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentSeverity" id="RDF-9U-Qpy">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentSeverity" id="RDF-9U-Qpy" customClass="TreatmentSeverityTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="180" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RDF-9U-Qpy" id="cen-MK-ufj">
@@ -156,7 +160,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDescription" rowHeight="100" id="QA7-nA-UOS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDescription" rowHeight="100" id="QA7-nA-UOS" customClass="TreatmentDescriptionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="224" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QA7-nA-UOS" id="CDg-1J-AXn">
@@ -178,7 +182,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentPrevention" rowHeight="70" id="zG9-b0-18r">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentPrevention" rowHeight="70" id="zG9-b0-18r" customClass="TreatmentPreventionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="324" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zG9-b0-18r" id="CGh-NT-X9A">
@@ -200,7 +204,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="treatmentExercises" id="wdP-Mo-gcx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="treatmentExercises" id="wdP-Mo-gcx" customClass="TreatmentExerciseTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="394" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wdP-Mo-gcx" id="kjM-oa-JFW">
@@ -223,6 +227,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2vY-ww-28e" id="CJS-Z4-4ks"/>
+                                    <outlet property="delegate" destination="2vY-ww-28e" id="cEQ-Va-0ZU"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -256,7 +264,7 @@
         <!--New Exercise-->
         <scene sceneID="nnK-ed-EMt">
             <objects>
-                <viewController id="8Hy-Ga-LG0" sceneMemberID="viewController">
+                <viewController id="8Hy-Ga-LG0" customClass="NewExerciseViewController" customModule="PTRight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yxc-fl-meS"/>
                         <viewControllerLayoutGuide type="bottom" id="uFv-3X-KlI"/>
@@ -269,7 +277,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseName" id="MxO-Jb-AEn">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseName" id="MxO-Jb-AEn" customClass="ExerciseNameTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MxO-Jb-AEn" id="du2-Ju-S3a">
@@ -289,7 +297,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseDescription" rowHeight="100" id="63N-cG-BP7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseDescription" rowHeight="100" id="63N-cG-BP7" customClass="ExerciseDescriptionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="63N-cG-BP7" id="WXW-zJ-CoD">
@@ -311,7 +319,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseVideo" rowHeight="257" id="5lS-TA-sXH">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseVideo" rowHeight="257" id="5lS-TA-sXH" customClass="ExerciseVideoTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="236" width="600" height="257"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5lS-TA-sXH" id="uGQ-yn-k3s">
@@ -361,6 +369,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="8Hy-Ga-LG0" id="DXA-7w-Hdp"/>
+                                    <outlet property="delegate" destination="8Hy-Ga-LG0" id="j3P-2z-rqg"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -445,7 +457,7 @@
         <!--Injury-->
         <scene sceneID="aa0-ru-9bU">
             <objects>
-                <viewController id="P62-oH-e14" sceneMemberID="viewController">
+                <viewController id="P62-oH-e14" customClass="AddInjuryViewController" customModule="PTRight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aFS-Hs-EYG"/>
                         <viewControllerLayoutGuide type="bottom" id="NJs-0D-Ye1"/>
@@ -458,7 +470,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryName" id="dg2-z8-4yq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryName" id="dg2-z8-4yq" customClass="InjuryNameTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dg2-z8-4yq" id="XKs-5d-6xy">
@@ -478,7 +490,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDescription" rowHeight="100" id="gnF-v5-vEw">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDescription" rowHeight="100" id="gnF-v5-vEw" customClass="InjuryDescTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gnF-v5-vEw" id="zhe-az-Xon">
@@ -500,7 +512,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryPrevention" rowHeight="70" id="pw6-lS-ZJS">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryPrevention" rowHeight="70" id="pw6-lS-ZJS" customClass="InjuryPrevTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="236" width="600" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pw6-lS-ZJS" id="R9P-wV-jms">
@@ -522,7 +534,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injurySeverity" id="5YC-gn-cAr">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injurySeverity" id="5YC-gn-cAr" customClass="InjurySevTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="306" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5YC-gn-cAr" id="4Ts-93-eVg">
@@ -551,7 +563,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDate" rowHeight="145" id="CIt-hK-Umo">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDate" rowHeight="145" id="CIt-hK-Umo" customClass="InjuryDateTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="350" width="600" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CIt-hK-Umo" id="0CI-I2-9mL">
@@ -574,6 +586,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="P62-oH-e14" id="rDv-uS-oqb"/>
+                                    <outlet property="delegate" destination="P62-oH-e14" id="Fok-pJ-6Zh"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -586,7 +602,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Injury" id="873-7F-Yl5">
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="ffn-1X-fk7"/>
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="xSi-g3-fFT"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="0A9-NY-4sZ"/>
                     </navigationItem>
                 </viewController>
@@ -596,6 +611,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LUJ-wS-wOy"/>
+        <segue reference="GwN-r4-lA0"/>
     </inferredMetricsTieBreakers>
 </document>
