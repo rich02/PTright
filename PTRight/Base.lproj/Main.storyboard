@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Kfe-Xk-zXo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Kfe-Xk-zXo">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +13,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="guG-nZ-8Tm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="Nnm-sn-1Cn">
                         <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </toolbar>
                     <connections>
                         <segue destination="Hwh-eg-QUK" kind="relationship" relationship="rootViewController" id="uas-Ub-Tda"/>
@@ -40,6 +42,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oG9-Gl-ytp">
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuries" id="Rg3-0W-DXH">
@@ -48,7 +51,9 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rg3-0W-DXH" id="7V9-ZM-Yu2">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="2vY-ww-28e" kind="show" identifier="showInjury" id="TqQ-kg-Ya8"/>
                                         </connections>
@@ -60,6 +65,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oG9-Gl-ytp" firstAttribute="leading" secondItem="ahP-Pa-OFE" secondAttribute="leading" id="C5a-25-yUM"/>
@@ -97,6 +103,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q7U-6c-oYA">
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentName" id="arU-04-d5T" customClass="TreatmentNameTableViewCell" customModule="PTRight" customModuleProvider="target">
@@ -108,17 +115,20 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wrist Sprain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHG-qB-5ce">
                                                     <rect key="frame" x="20" y="11" width="560" height="21"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="GHG-qB-5ce" firstAttribute="leading" secondItem="Oz1-sk-cAQ" secondAttribute="leading" constant="20" id="Bin-UH-GYw"/>
                                                 <constraint firstItem="GHG-qB-5ce" firstAttribute="centerY" secondItem="Oz1-sk-cAQ" secondAttribute="centerY" id="G5r-lc-kp1"/>
                                                 <constraint firstAttribute="trailing" secondItem="GHG-qB-5ce" secondAttribute="trailing" constant="20" id="dOF-Dt-doC"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDate" id="TZm-QS-SbX" customClass="TreatmentDateTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="44"/>
@@ -129,16 +139,19 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015.1.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sON-WB-Yu5">
                                                     <rect key="frame" x="20" y="11" width="61" height="21"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="sON-WB-Yu5" firstAttribute="centerY" secondItem="8uX-0a-Qih" secondAttribute="centerY" id="G1C-LW-nfU"/>
                                                 <constraint firstItem="sON-WB-Yu5" firstAttribute="leading" secondItem="8uX-0a-Qih" secondAttribute="leading" constant="20" id="g2h-Fg-c9P"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentSeverity" id="RDF-9U-Qpy" customClass="TreatmentSeverityTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="180" width="600" height="44"/>
@@ -149,16 +162,19 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ze-qA-1GN">
                                                     <rect key="frame" x="20" y="11" width="55" height="21"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="8Ze-qA-1GN" firstAttribute="leading" secondItem="cen-MK-ufj" secondAttribute="leading" constant="20" id="Ahj-Ft-4Bl"/>
                                                 <constraint firstItem="8Ze-qA-1GN" firstAttribute="centerY" secondItem="cen-MK-ufj" secondAttribute="centerY" id="hUW-Bq-5Cb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentDescription" rowHeight="100" id="QA7-nA-UOS" customClass="TreatmentDescriptionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="224" width="600" height="100"/>
@@ -169,11 +185,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-f5-n79">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="91"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="AdI-f5-n79" firstAttribute="leading" secondItem="CDg-1J-AXn" secondAttribute="leadingMargin" constant="12" id="4xv-Io-bGR"/>
                                                 <constraint firstItem="AdI-f5-n79" firstAttribute="top" secondItem="CDg-1J-AXn" secondAttribute="top" id="Mob-Qj-y4B"/>
@@ -181,6 +199,7 @@
                                                 <constraint firstItem="AdI-f5-n79" firstAttribute="bottom" secondItem="CDg-1J-AXn" secondAttribute="bottomMargin" id="rWa-tv-cer"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="treatmentPrevention" rowHeight="70" id="zG9-b0-18r" customClass="TreatmentPreventionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="324" width="600" height="70"/>
@@ -191,11 +210,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7qa-x9-7z5">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="61"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="7qa-x9-7z5" firstAttribute="centerX" secondItem="CGh-NT-X9A" secondAttribute="centerX" id="0ZJ-Ty-7j1"/>
                                                 <constraint firstItem="7qa-x9-7z5" firstAttribute="top" secondItem="CGh-NT-X9A" secondAttribute="top" id="HeQ-yT-A2l"/>
@@ -203,6 +224,7 @@
                                                 <constraint firstItem="7qa-x9-7z5" firstAttribute="bottom" secondItem="CGh-NT-X9A" secondAttribute="bottomMargin" id="wbk-g5-kTi"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="treatmentExercises" id="wdP-Mo-gcx" customClass="TreatmentExerciseTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="394" width="600" height="44"/>
@@ -213,15 +235,18 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amh-OS-2Gn">
                                                     <rect key="frame" x="30" y="11" width="42" height="21"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="amh-OS-2Gn" firstAttribute="centerY" secondItem="kjM-oa-JFW" secondAttribute="centerY" id="PdS-Km-kRV"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                         <connections>
                                             <segue destination="iZ4-3k-smZ" kind="show" identifier="actionExercise" id="M7b-yu-DbX"/>
                                         </connections>
@@ -233,6 +258,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="q7U-6c-oYA" secondAttribute="trailing" id="1bv-wB-Xoj"/>
@@ -275,6 +301,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mc1-2a-Auf">
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseName" id="MxO-Jb-AEn" customClass="ExerciseNameTableViewCell" customModule="PTRight" customModuleProvider="target">
@@ -286,16 +313,19 @@
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hC8-8w-IDC">
                                                     <rect key="frame" x="20" y="7" width="560" height="30"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="hC8-8w-IDC" secondAttribute="trailing" constant="20" id="93V-9T-1ho"/>
                                                 <constraint firstItem="hC8-8w-IDC" firstAttribute="leading" secondItem="du2-Ju-S3a" secondAttribute="leading" constant="20" id="Jyw-D0-8fV"/>
                                                 <constraint firstItem="hC8-8w-IDC" firstAttribute="centerY" secondItem="du2-Ju-S3a" secondAttribute="centerY" id="WBh-VB-2fx"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseDescription" rowHeight="100" id="63N-cG-BP7" customClass="ExerciseDescriptionTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="100"/>
@@ -306,11 +336,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hSJ-ed-vv7">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="91"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="hSJ-ed-vv7" firstAttribute="bottom" secondItem="WXW-zJ-CoD" secondAttribute="bottomMargin" id="2Ee-W9-uRa"/>
                                                 <constraint firstItem="hSJ-ed-vv7" firstAttribute="leading" secondItem="WXW-zJ-CoD" secondAttribute="leadingMargin" constant="12" id="6lG-FT-N7k"/>
@@ -318,6 +350,7 @@
                                                 <constraint firstItem="hSJ-ed-vv7" firstAttribute="top" secondItem="WXW-zJ-CoD" secondAttribute="top" id="V5P-Uu-0ZP"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseVideo" rowHeight="257" id="5lS-TA-sXH" customClass="ExerciseVideoTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="236" width="600" height="257"/>
@@ -328,10 +361,12 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dct-Eg-Fm9">
                                                     <rect key="frame" x="20" y="8" width="70" height="30"/>
+                                                    <animations/>
                                                     <state key="normal" title="Add Injury"/>
                                                 </button>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ofr-Uc-nHM">
                                                     <rect key="frame" x="20" y="46" width="560" height="109"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="109" id="9Jf-ss-PFK"/>
                                                     </constraints>
@@ -351,14 +386,18 @@
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ph5-WJ-jEB">
                                                                         <rect key="frame" x="-60" y="-29" width="240" height="128"/>
+                                                                        <animations/>
                                                                     </imageView>
                                                                 </subviews>
+                                                                <animations/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </view>
+                                                            <animations/>
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="Dct-Eg-Fm9" firstAttribute="top" secondItem="uGQ-yn-k3s" secondAttribute="top" constant="8" id="Cg5-Zl-XRx"/>
                                                 <constraint firstItem="Ofr-Uc-nHM" firstAttribute="leading" secondItem="uGQ-yn-k3s" secondAttribute="leading" constant="20" id="OBw-hV-qeB"/>
@@ -367,6 +406,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="Ofr-Uc-nHM" secondAttribute="trailing" constant="20" id="oD3-ym-Rcm"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -375,6 +415,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Mc1-2a-Auf" firstAttribute="top" secondItem="Yxc-fl-meS" secondAttribute="bottom" id="NMp-rn-Lod"/>
@@ -405,6 +446,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rWx-gb-pKC">
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseVideo" rowHeight="200" id="lLE-Gb-TaZ">
@@ -413,7 +455,9 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lLE-Gb-TaZ" id="uxp-Cw-eUe">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseInstructions" rowHeight="200" id="SbV-Vh-Bz1">
                                         <rect key="frame" x="0.0" y="292" width="600" height="200"/>
@@ -424,11 +468,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-W9-s3T">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="191"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="Cfb-W9-s3T" firstAttribute="bottom" secondItem="hg4-E9-dMD" secondAttribute="bottomMargin" id="HWr-A0-9gF"/>
                                                 <constraint firstItem="Cfb-W9-s3T" firstAttribute="top" secondItem="hg4-E9-dMD" secondAttribute="top" id="RRA-7y-bbT"/>
@@ -436,10 +482,12 @@
                                                 <constraint firstItem="Cfb-W9-s3T" firstAttribute="centerX" secondItem="hg4-E9-dMD" secondAttribute="centerX" id="cVr-c5-quu"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gEO-WM-3Mw" firstAttribute="top" secondItem="rWx-gb-pKC" secondAttribute="bottom" id="DlB-10-5i5"/>
@@ -468,6 +516,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i2g-xX-xbp">
                                 <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryName" id="dg2-z8-4yq" customClass="InjuryNameTableViewCell" customModule="PTRight" customModuleProvider="target">
@@ -479,16 +528,19 @@
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Injury" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akh-hk-f7x">
                                                     <rect key="frame" x="20" y="7" width="560" height="30"/>
+                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="akh-hk-f7x" firstAttribute="leading" secondItem="XKs-5d-6xy" secondAttribute="leading" constant="20" id="KAj-co-lDU"/>
                                                 <constraint firstAttribute="trailing" secondItem="akh-hk-f7x" secondAttribute="trailing" constant="20" id="R3B-qI-QBg"/>
                                                 <constraint firstItem="akh-hk-f7x" firstAttribute="centerY" secondItem="XKs-5d-6xy" secondAttribute="centerY" id="ury-5y-G2j"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDescription" rowHeight="100" id="gnF-v5-vEw" customClass="InjuryDescTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="600" height="100"/>
@@ -499,11 +551,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LUf-gR-sr8">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="91"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="LUf-gR-sr8" firstAttribute="leading" secondItem="zhe-az-Xon" secondAttribute="leadingMargin" constant="12" id="Nrl-qe-81Q"/>
                                                 <constraint firstItem="LUf-gR-sr8" firstAttribute="bottom" secondItem="zhe-az-Xon" secondAttribute="bottomMargin" id="n7h-Cr-rK2"/>
@@ -511,6 +565,7 @@
                                                 <constraint firstItem="LUf-gR-sr8" firstAttribute="top" secondItem="zhe-az-Xon" secondAttribute="top" id="vXz-4z-cpO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryPrevention" rowHeight="70" id="pw6-lS-ZJS" customClass="InjuryPrevTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="236" width="600" height="70"/>
@@ -521,11 +576,13 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oT4-AK-GUF">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="61"/>
+                                                    <animations/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="oT4-AK-GUF" firstAttribute="leading" secondItem="R9P-wV-jms" secondAttribute="leadingMargin" constant="12" id="8n4-VU-3ds"/>
                                                 <constraint firstItem="oT4-AK-GUF" firstAttribute="top" secondItem="R9P-wV-jms" secondAttribute="top" id="GBV-sU-g0s"/>
@@ -533,6 +590,7 @@
                                                 <constraint firstItem="oT4-AK-GUF" firstAttribute="bottom" secondItem="R9P-wV-jms" secondAttribute="bottomMargin" id="ocl-AL-3KP"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injurySeverity" id="5YC-gn-cAr" customClass="InjurySevTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="306" width="600" height="44"/>
@@ -543,6 +601,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severity: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMl-t9-5fd">
                                                     <rect key="frame" x="20" y="11" width="94" height="21"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="94" id="suS-Dd-xZU"/>
                                                     </constraints>
@@ -552,8 +611,10 @@
                                                 </label>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="v47-QD-zt6">
                                                     <rect key="frame" x="132" y="7" width="450" height="31"/>
+                                                    <animations/>
                                                 </slider>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="v47-QD-zt6" firstAttribute="centerY" secondItem="4Ts-93-eVg" secondAttribute="centerY" id="6fp-96-dCd"/>
                                                 <constraint firstItem="GMl-t9-5fd" firstAttribute="leading" secondItem="4Ts-93-eVg" secondAttribute="leading" constant="20" id="QK2-xc-dni"/>
@@ -562,6 +623,7 @@
                                                 <constraint firstItem="GMl-t9-5fd" firstAttribute="centerY" secondItem="4Ts-93-eVg" secondAttribute="centerY" id="wAR-A7-zpl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="injuryDate" rowHeight="145" id="CIt-hK-Umo" customClass="InjuryDateTableViewCell" customModule="PTRight" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="350" width="600" height="145"/>
@@ -572,11 +634,13 @@
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-yr-vvY">
                                                     <rect key="frame" x="20" y="0.0" width="560" height="144"/>
+                                                    <animations/>
                                                     <date key="date" timeIntervalSinceReferenceDate="470690546.496764">
                                                         <!--2015-12-01 19:22:26 +0000-->
                                                     </date>
                                                 </datePicker>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="1dz-yr-vvY" firstAttribute="leading" secondItem="0CI-I2-9mL" secondAttribute="leading" constant="20" id="2N1-19-tRX"/>
                                                 <constraint firstItem="1dz-yr-vvY" firstAttribute="top" secondItem="0CI-I2-9mL" secondAttribute="top" id="I9q-R9-i5d"/>
@@ -584,6 +648,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="1dz-yr-vvY" secondAttribute="bottom" id="emw-hK-f8p"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -592,6 +657,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="i2g-xX-xbp" secondAttribute="trailing" id="Y4A-Nz-01z"/>
